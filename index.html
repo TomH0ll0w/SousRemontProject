@@ -597,6 +597,35 @@
 		.review-form { margin-top: 1.2rem; }
 		.review-form h3 { margin-bottom: 1rem; }
 
+		/* фото рабочего места в блоке «О нас» */
+		.about-photo { margin-top: 2.2rem; }
+		.about-photo img {
+			width: 100%;
+			border: var(--border);
+			box-shadow: var(--shadow);
+			background: var(--cream-2);
+		}
+		.about-photo figcaption {
+			margin-top: 1.2rem;
+			font-size: .88rem;
+			text-align: center;
+			color: #4a4a4a;
+		}
+
+		/* фото сотрудника в блоке контактов */
+		.contact-photo { margin-top: 1.2rem; max-width: 280px; }
+		.contact-photo img {
+			width: 100%;
+			border: 3px solid var(--cream);
+			box-shadow: 4px 4px 0 rgba(0, 0, 0, .35);
+			background: var(--cream-2);
+		}
+		.contact-photo figcaption {
+			margin-top: .5rem;
+			font-size: .8rem;
+			color: #ddd;
+		}
+
 		/* подвал */
 		footer.site {
 			background: var(--ink);
@@ -820,6 +849,10 @@
 					<div class="why-item reveal"><div class="ico" aria-hidden="true">⏱️</div><div><h3>Выезд за час</h3><p>Приезжаем в течение 60 минут после подтверждения заявки по городу.</p></div></div>
 					<div class="why-item reveal"><div class="ico" aria-hidden="true">💰</div><div><h3>Честные цены</h3><p>Без накруток и «сюрпризов» в чеке. Стоимость согласуем до начала работ.</p></div></div>
 				</div>
+				<figure class="about-photo reveal">
+					<img src="images/image.png" alt="Рабочее место мастера мастерской «СоюзРемонт»" loading="lazy">
+					<figcaption>Наше рабочее место: порядок и инструмент всегда под рукой.</figcaption>
+				</figure>
 			</div>
 		</section>
 
@@ -993,6 +1026,10 @@
 					<li><span class="ico" aria-hidden="true">🕐</span><span>Пн–Сб: 9:00–20:00, Вс: 10:00–18:00</span></li>
 					<li><span class="ico" aria-hidden="true">✉️</span><a href="mailto:info@souzremont.ru">info@souzremont.ru</a></li>
 				</ul>
+				<figure class="contact-photo">
+					<img src="images/Рабочий.jpg" alt="Сотрудник мастерской «СоюзРемонт»" loading="lazy">
+					<figcaption>Ваш мастер — всегда на связи!</figcaption>
+				</figure>
 			</div>
 			<div>
 				<h2>Навигация</h2>
